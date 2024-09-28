@@ -1,0 +1,15 @@
+def greet_custuner(name):
+    print(f"hello(name),how can we assist you today?")
+    print("1.product info\n2.order support\n3.technical help")
+    choice=input("choose an option(1/2/3):")
+    if choice=='1':
+        print("providing product information.")
+    elif choice=='2':
+        print("assisting with order support.")
+    elif choice=='3':
+        print("connecting to technical help.")
+    else:
+        print("invalid choice,please try again.")
+# simulate a customer interaction
+name=input("entre your name:")
+greet_custuner(name)
